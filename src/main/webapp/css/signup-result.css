@@ -1,0 +1,24 @@
+.result-content{
+  padding: 150px 0px;   
+  }
+/*.topborder{
+  background: #ff4b2b !important;
+}*/
+.input-icon-group input{
+  border: 1px solid pink ;
+}
+.home-btn a{
+  background: #ff4b2b;
+  border: none;
+  text-align: center;
+  width: 540px;
+}
+.home-btn a:hover{
+  opacity: 0.8;
+  background: #ee2b09c9;
+  transition: 0.5s;
+}
+.message h2,
+.message p{
+  text-align: center;
+}

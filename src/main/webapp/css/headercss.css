@@ -1,0 +1,292 @@
+@font-face{
+    font-family:'cookie';
+    src:url(/font/CookieRun\ Regular.ttf) format('truetype');
+}
+
+body{
+	font-family: 'cookie', sans-serif;
+}
+
+#content {
+    display: inline-block;
+    /* margin: 20px; */
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  .keyword{
+    float: left;
+    /* margin: 10px 40px 0px; */
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+  }
+  .rank-list a {
+    color: #000000;
+    text-decoration: none;
+    height: 20px;
+    margin-left: auto;
+}
+
+.rank-list a:hover {
+    text-decoration: none;
+    color:#666666;
+}
+
+.rank-list {
+    overflow: hidden;
+    width: 160px;
+    height: 20px;
+    margin: 0;
+    
+  }
+  
+  .rank-list dt {
+    display: none;
+  }
+  
+  .rank-list dd {
+    position: relative;
+    margin: 0;
+  }
+  
+  .rank-list ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .rank-list li {
+    height: 20px;
+    line-height: 20px;
+  }
+  
+
+
+
+
+
+
+
+/**********************************/
+/********* Top Header CSS *********/
+/**********************************/
+.top-header {
+    padding: 15px 0;
+    background: #ffffff;
+}
+
+.top-header .logo {
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top-header .logo a img {
+    max-height: 60px;
+    
+    /* width: 200px; */
+
+}
+
+.top-header .search {
+    width: 100%;
+}
+
+.top-header .search input[type=text] {
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    color: #666666;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none !important;
+}
+
+.top-header .search button {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 1px;
+    /* right: 16px; */
+    padding: 0 15px;
+    border: none !important;
+    background: none;
+    color: #ff4b2b;
+   right: 1px;
+   
+}
+
+.top-header .search button:hover {
+    color: #ffffff;
+    border: none !important;
+}
+
+.top-header .user {
+    width: 100%;
+    text-align: right;
+}
+
+.top-header .user .dropdown {
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+.toptop .navbar{
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+ 
+}
+.toptop .navbar a{
+	color: black;
+}
+
+.toptop .navbar a:hover{
+	text-decoration: none; 
+}
+
+
+.toptop-menu,
+.space{
+    margin-right: 15px;
+}
+.toptop-menu:hover{
+    
+    
+    opacity: 0.5;
+    color: lightgray;
+    
+}
+
+.navbar-nav .nav-link{
+    margin-right: 50px;
+}
+.top-header .user .dropdown-menu {
+    border-radius: 0;
+}
+.top-header-menu .navbar .nav-link{
+    margin-right: 15px;
+}
+.top-header .user .cart {
+    display: inline-block;
+}
+
+.top-header .user .cart i {
+    color: #ff4b2b;
+    font-size: 18px;
+}
+
+.top-header .user .cart span {
+    color: #666666;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .top-header {
+        max-height: 90px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .top-header .logo,
+    .top-header .search,
+    .top-header .user {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .top-header .user {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #666666;
+    outline: none;
+    text-decoration: none;
+}
+
+/**********************************/
+/********* Header Nav CSS *********/
+/**********************************/
+.header {
+    position: relative;
+    
+}
+
+.header .navbar {
+    height: 100%;
+    padding: 0;
+
+}
+
+.header .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f8f9fa;
+}
+
+/* 네비바 색상 */
+@media (min-width: 768px) {
+    .header,
+    .header .navbar {
+        background: pink !important;
+        /* border:1px solid #a0a0a0 !important; */
+    }
+    
+    .header .navbar-brand {
+        display: none;
+    }
+    
+    /* 네비바 글씨 관련 */
+    .header a.nav-link {
+        padding: 8px 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 18px 15px;
+        color: #fff !important;
+    }
+}
+
+@media (max-width: 768px) {   
+    .header,
+    .header .navbar {
+        background: #333333 !important;
+    }
+    
+    .header a.nav-link {
+        padding: 5px;
+    }
+    
+    .header .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
+
