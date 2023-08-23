@@ -1,9 +1,14 @@
-# 프로젝트는 알아링리일이리일이리일이리일이리이링리일ㅇ
+# project_sms_web
+### <strong>Ⅰ소개</strong>
+ 학생 성적 관리 프로그램 
 
-1. dfkdkfdkfkdkfd
+### <strong>Ⅱ개발언어</strong>
+html
+css
+javascript
 
-2. dfdfdfdfdfd
+### <strong>Ⅲ개발환경</strong>
+Visual Studio Code
 
-3. dfdfdfdfdfdfdd
-
-4. fdfdfdfdfdfd
+### <strong>Ⅳ더 자세히 보기</strong>
+[노션링크.....]https://future-grill-222.notion.site/project_sms_web-10457271c2a34dbfbbe829c9f3281bae?pvs=4
